@@ -1,42 +1,35 @@
-# sv
+# Klayrow Photobooth
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+A SvelteKit 5 photobooth app with:
 
-## Creating a project
+- Home flow with optional names
+- Template selection
+- Upload + camera capture modes
+- Final strip review and download
 
-If you're seeing this, you've probably already done this step. Congrats!
-
-```sh
-# create a new project
-npx sv create my-app
-```
-
-To recreate this project with the same configuration:
+## Local Development
 
 ```sh
-# recreate this project
-npx sv@0.15.1 create --template minimal --types ts --no-install photobooth-webapp
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```sh
+npm install
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-## Building
-
-To create a production version of your app:
+## Build
 
 ```sh
 npm run build
+npm run preview
 ```
 
-You can preview the production build with `npm run preview`.
+## GitHub Pages Deployment
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+This repo is configured for GitHub Pages via GitHub Actions.
+
+1. Push to `main`.
+2. In GitHub, open `Settings -> Pages`.
+3. Under **Build and deployment**, set **Source** to `GitHub Actions`.
+4. Wait for the workflow `Deploy to GitHub Pages` to finish.
+
+Site URL:
+
+`https://clairedanielle14.github.io/klayrow-photobooth/`
