@@ -1,8 +1,9 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import { goto } from '$app/navigation';
 	import { parseNames } from '$lib/utils/names';
 
-	const HERO_IMAGE_SRC = '/home-special-photobooth.png';
+	const HERO_IMAGE_SRC = `${base}/home-special-photobooth.png`;
 	let namesInput = $state('');
 	let heroImageFailed = $state(false);
 
