@@ -33,3 +33,6 @@ This repo is configured for GitHub Pages via GitHub Actions.
 Site URL:
 
 `https://clairedanielle14.github.io/klayrow-photobooth/`
+
+
+ this photobooth is inspired by nashallery's photobooth, i tried to make it more unique for someone :3
